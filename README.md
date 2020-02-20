@@ -1,7 +1,6 @@
 # 30天制图挑战
 ## 开发环境
-----------------------------
-python3.7<br/>
+python3.6<br/>
 arcpy<br/>
 arcgis<br/>
 postGis<br/>
