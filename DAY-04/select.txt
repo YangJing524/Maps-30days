@@ -1,0 +1,33 @@
+"NAME" LIKE '武汉%' OR 
+"NAME" LIKE '孝感%' OR 
+"NAME" LIKE '鄂州%' OR 
+"NAME" LIKE '荆州%' OR 
+"NAME" LIKE '随州%' OR 
+"NAME" LIKE '襄阳%' OR 
+"NAME" LIKE '宜昌%' OR 
+"NAME" LIKE '黄石%' OR 
+"NAME" LIKE '荆门%' OR 
+"NAME" LIKE '十堰%' OR 
+"NAME" LIKE '咸宁%' OR 
+"NAME" LIKE '仙桃%' OR 
+"NAME" LIKE '天门%' OR 
+"NAME" LIKE '恩施%' OR 
+"NAME" LIKE '潜江%' OR 
+"NAME" LIKE '神农架林区%' OR
+"NAME" LIKE '襄樊%'
+
+for i in !current!:
+    if i>10000:
+     !reClass!='10000人以上'
+    elif i>1000:
+     !reClass!='1000人以上'
+    elif i>500:
+     !reClass!= '500人以上'
+    elif i>200:
+     !reClass!='200人以上'
+    elif i>100:
+     !reClass!='100人以上'
+    elif i>10:
+     !reClass!='10人以上'
+    else:
+     !reClass!='10人以下'
