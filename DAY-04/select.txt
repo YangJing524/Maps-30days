@@ -16,7 +16,8 @@
 "NAME" LIKE '神农架林区%' OR
 "NAME" LIKE '襄樊%'
 
-for i in !current!:
+"reClass(folat(!current!))"
+def reClass(i):
     if i>10000:
      !reClass!='10000人以上'
     elif i>1000:
