@@ -6,4 +6,7 @@ arcgis<br/>
 postGis<br/>
 django<br/>
 FME<br/>
-folium pandas matplotlib numpy<br/>
+folium <br/>
+pandas<br/>
+matplotlib<br/>
+numpy<br/>
